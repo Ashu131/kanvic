@@ -1,0 +1,109 @@
+
+.card__content:before,.card__content:before
+{left:0;bottom:0;width:100%;height:40px;background:-webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,0)), to(#fff));background:-webkit-linear-gradient(top, rgba(255,255,255,0) 0, #fff 75%);background:linear-gradient(to bottom, rgba(255,255,255,0) 0, #fff 75%)}
+
+.card__mask,.card__figure,.card__footer,.card__content{position:absolute;top:0;left:0;right:0;bottom:0}
+
+.card__mask{overflow:hidden;}
+
+.card__figure__img{height:100%;min-width:100%}
+
+.card__mask{border-radius:4px}
+
+.card__figure:before, .card__figure:before
+{ 
+	left:0;bottom:0;width:100%;height:50%;background:-webkit-gradient(linear, left top, left bottom, from(rgba(44,54,67,0)), to(rgba(44,54,67,0.75)));
+ 	background:-webkit-linear-gradient(top, rgba(44,54,67,0) 0, rgba(44,54,67,0.75) 100%);background:linear-gradient(to bottom, rgba(44,54,67,0) 0, rgba(44,54,67,0.75) 100%)
+}
+
+.card .card__figure:after
+{
+	 top:0;left:0;right:0;bottom:0;opacity:0;background:#2c3643;-webkit-transition:opacity 0.25s ease-out;transition:opacity 0.25s ease-out;
+}
+
+.card a:hover .card__figure:after, .card a:focus 
+.card__figure:after{opacity:0.35}
+.card__figure:before{height:100%}
+.card__figure__img
+{
+	-webkit-box-shadow:0 10px 10px rgba(0,0,0,0.65),0 15px 15px rgba(0,0,0,0.15);box-shadow:0 10px 10px rgba(0,0,0,0.65),0 15px 15px rgba(0,0,0,0.15);
+}
+ 
+ .card
+ {
+ 	position:relative;margin-bottom:10px;background:#fff;
+ }
+ .card--fixed{width:192px;padding-top:380px}
+
+.card__figure__img{min-height:100%;height:auto}
+
+.card__figure__icon{height:30px;width:30px;background-position:0 40%;position:absolute;left:15px;top:15px}
+
+.card__content{padding:15px;overflow:hidden;color:#3b444f}
+
+.card--has-footer .card__content{bottom:35px}
+
+.card__content__pin{width:22px;height:32px;margin-bottom:6px}
+
+.card__content__context{font-size:13px;font-size:0.92857rem;padding:2px 0;color:#67747c}
+
+.card__content__context.copy--icon--before:before
+{
+	background-position:0 40%;margin-top:-4px;margin-bottom:-2px;border-radius:50%;border:2px solid;-webkit-background-size:100%;background-size:100%}.card__content__ribbon+.card__content__context{margin-right:40px}.card__content__ribbon{position:absolute;top:12px;right:0;width:56px;height:18px}.card__content__title{font-size:20px;font-size:1.42857rem;color:#3b444f}.card__content__desc{font-size:15px;font-size:1.07143rem;margin:10px 0 0;line-height:1.3;color:#67747c}.card__footer{font-size:10px;font-family:'lato';top:auto;height:36px;padding:0 15px;color:#666666
+}
+
+.card--no-footer .card__footer{display:none}
+
+.card__footer .copy--icon--before:before
+{
+	background-position:0 20%;width:10px;opacity:0.75;
+}
+
+.card__content{top:auto;border-top:0}
+
+.card__figure{bottom:195px}
+
+.card__footer, .card__content{background:#fff}
+
+.card__content{height:165px;-webkit-transition:padding 0.2s ease-out;transition:padding 0.2s ease-out}
+
+
+
+.card__content{padding-bottom:80px}
+.card__content{height:130px}
+.card__figure{bottom:120px}
+.card__content{height:90px}
+.card--has-footer .card__content{height:55px}
+.card__content__desc{display:none}
+.card__footer,
+.card__content{color:#fff}
+.card--tall.card--has-img.card--cover 
+.copy--icon--before:before{background-position:0 40%;opacity:1}
+.card--tall.card--has-img.card--cover 
+.card__content__context{color:inherit}
+.card--tall.card--has-img.card--cover 
+.card__content__title{font-size:24px;font-size:1.71429rem;color:#fff}
+.card--tall.card--has-img.card--cover.card--double 
+.card__content__title{font-size:28px;font-size:2rem}
+.card--tall.card--no-img.card--has-price .card__content__title{padding-right:40px}.card--short{padding-top:96.35417%}
+.card--short.card--fixed{width:192px;padding-top:185px}
+.card--short.card--has-img 
+.card__figure__img{width:100%;height:auto}
+.card--short.card--has-img
+
+.card__footer,.card--short.card--has-img .card__content{color:#fff}
+.copy--icon--before:before{background-position:0 40%;opacity:1}
+.card__content{top:auto;border-top:0}
+
+.card__content__context{color:inherit}
+
+.card__content__title{font-size:24px;font-size:1.71429rem;color:#fff}
+
+.card__content__desc,.card__content__desc, .card__content__title
+{border:0;clip:rect(0, 0, 0, 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}
+
+ 
+ .card__content:before,.card__content:before,.card__figure:before,.card__figure:before,.card__figure:after,
+ .card__content:before,.card__content:before, .card__figure:before, .card__figure:before,.card__figure:after
+ {position:absolute}
+ 

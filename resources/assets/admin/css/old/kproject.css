@@ -1,0 +1,412 @@
+/*----------------------KPROJETCS--------------------------------*/
+
+    body#project #projectsnav:after 
+    {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #a87f2e;
+    transition: all .35s;
+    position: relative;
+    width: 100%;
+    }
+    #fa-icon
+    {
+    font-size: 20px;
+    font-family: 'FontAwesome';
+    }
+    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover
+    {
+    color: #738c28;
+    background-color: #ffffff;
+    }
+    .kpnav
+    {
+    height: 108px;
+    
+    }
+    div#bs-example-navbar-collapse-1
+    {
+    padding-top: 20px;
+    }
+    .kp_menu
+    {
+    padding: 0;
+    list-style: none;
+    }
+    .kp_menu_li
+    {
+    display: inline-block;
+    position: relative;
+    line-height: 21px;
+    text-align: left;
+    font-family: 'raleway';
+    font-size: 12px;
+
+    }
+    li.kp_menu_li :hover
+    {
+    font-size: 12px;
+    font-family: 'raleway';
+   
+    background-color: white;
+    }
+    .col-md-12.text-center 
+    {
+    padding-top: 3%;
+    }
+    .header-full-screen-img
+    {
+    background: url('../img/project/header-background.jpg') 27% center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 8%;
+    }
+
+    .flofdetails
+    {
+    font-size: 15px;
+    font-family: 'lato';
+    
+    
+    color: #666666;  
+    }
+    .ovproject
+    {
+    border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 10px;
+    text-align: justify;
+    }
+    .ov-icon-pdf-div
+    {
+        margin-right: 20px;
+        padding-right: 20px;
+    border-right: 1px solid #cccccc;
+    cursor: pointer;
+    }
+    .ov-icon-watch-div
+    {
+    padding-top: 20px;
+    cursor: pointer;
+    }
+    .ov-icon-watch
+    {
+    font-size: 30px;
+    color: #d4ae14;
+    }
+    .ov-icon-pdf
+    {
+    font-size: 30px;
+    color: red;
+    }
+    .ovproject
+    {
+    font-size: 15px;
+    font-family: 'lato';
+    color: #666666;
+    }
+    .project-ov-heading
+     {
+     font-weight: 500;
+     font-family: 'raleway';
+     font-size: 24px;
+     margin-bottom: 32px;
+     margin-top: 46px;
+     }
+        
+    span.ov-heading:after 
+    {
+    content: "";
+    display: block;
+    width: 14%;
+    margin-top: 4px;
+    border-bottom: 3px solid #738c28;
+    transition: all .35s;
+    position: relative;
+    }
+    .col-md-6.ov-icon-watch-div:hover .ov-icon-watch
+    {
+    color: gray;
+    -o-transition: all 1s ;
+    -moz-transition: all 1s ;
+    -khtml-transition: all 1s ;
+    -webkit-transition: all 1s;
+    -ms-transition: all 1s;
+    transition: all 1s;
+    }
+   /* .watch-me
+    {
+    display: none;
+    }
+    .col-md-6.ov-icon-watch-div:hover .watch-me
+    {
+     display: block;
+
+    }*/
+    .call-to-action-heading
+    {
+    list-style: none;
+    text-align: center;
+    line-height: 25px;
+    margin: 0px;
+    padding-top: 10px;
+    }
+    .flofcall
+    {
+     font-size: 20px;
+     font-family: 'lato';
+     color: white;
+     font-weight: 500;  
+    }
+    .slofcall
+    {
+     font-size: 20px;
+     font-family: 'lato';
+     color: white;
+     font-weight: 200;
+    }
+/*
+    .call-icon-effect:hover .call-icon-effectOn
+    {
+    color: #b50000;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    -o-transition: all 1s ;
+    -moz-transition: all 1s ;
+    -khtml-transition: all 1s ;
+    -webkit-transition: all 1s;
+    -ms-transition: all 1s;
+    transition: all 1s;
+    }*/
+   .call-icon-effect
+    {
+        text-align: center;
+    }
+    .cd-intro
+    {
+    color:#edead6;
+
+    }
+
+    .ov-txt
+    {
+     margin-top: -25px;
+    }
+/*--------------gallery--------------*/
+    .project-gl-heading
+     {
+     font-weight: 500;
+     font-family: 'raleway';
+     font-size: 24px;
+     margin-bottom: 32px;
+     margin-top: 46px;
+     text-align: center;
+     }
+        
+span.gl-heading:after {
+    content: "";
+    display: block;
+    width: 50px;
+    margin: 0 auto;
+    margin-top: 4px;
+    border-bottom: 3px solid #822A2A;
+    transition: all .35s;
+    position: absolute;
+    /* margin: auto; */
+    left: 50%;
+    margin-left: -25px;
+}
+   
+/*-------------------- tab----------------*/
+    .tab-center
+    {
+        text-align: center;
+    }
+    .tab-txt
+    {
+    text-align: center;
+    font-family: 'lato';
+    font-size: 15px;
+    color: #666666;
+    }
+    .row-content
+    {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    transition: 0.5s ease;
+    }
+    .row-content:hover .tab-center img {
+
+    border-style: solid;
+    -webkit-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+    margin-top: -7px;
+    margin-bottom: 7px;
+    }
+    .gmap-contact 
+    {
+    background-image: url('../img/project/Keystone/product-info-pbg.jpg');
+    height: 550px;
+    background-position: 50% 50%;
+    background-size: cover;
+    }
+    .gmap-loc
+    {
+    padding-top: 40px;
+    }
+     .gmap-contact-heading
+     {
+     font-weight: 500;
+     font-family: 'raleway';
+     font-size: 24px;
+     margin-bottom: 32px;
+     }
+        
+    span.gmap-heading:after 
+    {
+    content: "";
+    display: block;
+    width: 14%;
+    margin-top: 4px;
+    border-bottom: 3px solid #738c28;
+    transition: all .35s;
+    position: relative;
+    }
+    .gmap-address
+    {
+    font-family: 'lato';
+    font-size: 20px;
+    color: #666666;
+    }
+    .gmap-icon
+    {
+    font-size: 30px;
+    color: #738c28;
+    width: 40px;
+    }
+    .gmap-icon-industry
+    {
+    font-size: 25px;
+    color: #738c28;
+    width: 40px;
+    }
+    .gmap-alignment
+    {
+    padding-top: 25px;
+    }
+    .gmap-icon-txt
+    {
+    font-size: 20px;
+    font-family: 'lato';
+    color: #666666;
+    }
+/*----------floor---------------*/
+
+ .project-fl-heading
+     {
+     font-weight: 500;
+     font-family: 'raleway';
+     font-size: 24px;
+     margin-bottom: 32px;
+     margin-top: 46px;
+     text-align: center;
+     }
+        
+     span.fl-heading:after 
+    {
+    content: "";
+    display: block;
+    width: 4%;
+    margin: 0 auto;
+    margin-top: 4px;
+    border-bottom: 3px solid #738c28;
+    transition: all .35s;
+    position: relative;
+    }
+    .sp
+    {
+     font-family: 'lato';
+     font-size: 15px;
+     color: #666666;
+     border-bottom: 1px solid #c5c5c5;
+    }
+    .apart-sp 
+    {
+    padding-top: 40px;
+    }
+    .col-md-4.general-sp
+    {
+     padding-top: 40px;
+     padding-bottom: 20px;
+    }
+    .col-md-4.wood-sp
+    {
+     padding-top: 40px;
+     padding-bottom: 20px; 
+    }
+    .col-md-4.electrical-sp
+    {
+     padding-top: 40px;
+     padding-bottom: 20px;
+    }
+    .col-md-4.toilets-sp 
+    {
+     padding-top: 40px;
+     padding-bottom: 20px;        
+    }
+    .col-md-4.kitchen-sp 
+    {
+     padding-top: 40px;
+     padding-bottom: 20px;          
+    }
+    .sp-points
+    {
+    font-family: 'lato';
+    font-size: 15px;
+    color: #666666;
+    list-style: initial;
+    }
+    .bottom-sp-div
+    {
+    padding-top: 30px;
+    }
+/*---------form-----------------*/
+    .appt-form
+    {
+        padding: 0px;
+    }
+    .ov-eb
+    {
+        padding-top: 3px;
+    }
+    .ov-ww
+    {
+        padding-top: 3px;
+    }
+.navbar-collapse {
+    padding-right: 15px;
+    padding-left: 15px;
+    overflow-x: visible;
+    -webkit-overflow-scrolling: touch;
+    /* border-top: 1px solid transparent; */
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+    background-color: white;
+    border-bottom: 1px solid #ffffff;
+    border: none;
+}
+ 
+.margin20{margin-top: 20px;margin-left: 10px;}

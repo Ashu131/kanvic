@@ -1,0 +1,75 @@
+
+RewriteOptions inherit
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+
+    RewriteEngine On
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+    RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+    RewriteRule ^ index.php [L]
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+</IfModule>
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php56” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddType application/x-httpd-ea-php56 .php .php5 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
+
+Redirect 301 /about-kanvic.html /who-we-are
+
+Redirect 301 /our-approach.html /our-approach
+Redirect 301 /strategy.html /strategy
+Redirect 301 /services-strategy.html /strategy
+Redirect 301 /corporate-finance.html /strategy
+Redirect 301 /services-corporate-finance.html /strategy
+Redirect 301 /marketing.html /marketing
+Redirect 301 /services-marketing.html /marketing
+Redirect 301 /performance-leadership.html /transformation
+Redirect 301 /services-performance-leadership.html /transformation
+Redirect 301 /consumer-goods.html /consumer-goods
+Redirect 301 /retail.html /retail
+Redirect 301 /healthcare.html /healthcare
+Redirect 301 /industrial-goods.html /industrial-goods
+
+Redirect 301 /greymatter.html /grey-matter
+Redirect 301 /it-s-time-for-a-fresh-approach-to-budgeting.html /grey-matter/Its-time-for-a-fresh-approach-to-budgeting
+Redirect 301 /being-ceo-3.0.html /grey-matter/Being-CEO-30
+Redirect 301 /meet-the-ceo-3.0.html /grey-matter/Meet-the-CEO-30
+Redirect 301 /the-elephant-tracks-the-dragon.html /grey-matter/The-elephant-tracks-the-dragon
+Redirect 301 /how-ceos-can-make-mental-flexibility-a-valuable-asset.html /grey-matter/How-CEOs-can-make-mental-flexibility-a-valuable-asset
+Redirect 301 /how-strategic-thinkers-expand-their-options.html /grey-matter/How-strategic-thinkers-expand-their-options
+Redirect 301 /the-power-of-peripheral-vision-in-strategic-thinking.html /grey-matter/The-power-of-peripheral-vision-in-strategic-thinking
+Redirect 301 /how-to-develop-your-big-data-game-plan.html /grey-matter/How-to-develop-your-big-data-game-plan
+Redirect 301 /four-ways-to-benefits-from-big-data.html /grey-matter/Four-ways-to-benefits-from-big-data
+Redirect 301 /unlocking-the-big-data-opportunity.html /grey-matter/Unlocking-the-big-data-opportunity
+Redirect 301 /laying-a-strong-economic-foundation-for-new-hospitals.html /grey-matter/Laying-a-strong-economic-foundation-for-new-hospitals
+
+Redirect 301 /contact.html /contact-us
+Redirect 301 /taking-a-new-road-to-growth.html http://kanvic.com/
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^who\-we\-are\#section\-join\-kanvic$ "http\:\/\/kanvic\.com\/\#section\-join\-kanvic" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^careers\.html$ "http\:\/\/kanvic\.com\/\#section\-join\-kanvic" [R=301,L]

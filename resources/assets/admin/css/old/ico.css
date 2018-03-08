@@ -1,0 +1,152 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('icofonts/icomoon.eot?-57ui3e');
+	src:url('icofonts/icomoon.eot?#iefix-57ui3e') format('embedded-opentype'),
+		url('icofonts/icomoon.ttf?-57ui3e') format('truetype'),
+		url('icofonts/icomoon.woff?-57ui3e') format('woff'),
+		url('icofonts/icomoon.svg?-57ui3e#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-guest-room:before {
+	content: "\e600";
+}
+.icon-ample-parking:before {
+	content: "\e601";
+}
+.icon-carrom-board:before {
+	content: "\e602";
+}
+.icon-carrom-room:before {
+	content: "\e603";
+}
+.icon-cctv-camera:before {
+	content: "\e604";
+}
+.icon-chess-room:before {
+	content: "\e605";
+}
+.icon-children-play-area:before {
+	content: "\e606";
+}
+.icon-club-house:before {
+	content: "\e607";
+}
+.icon-community-hall:before {
+	content: "\e608";
+}
+.icon-earthquake-resistance:before {
+	content: "\e609";
+}
+.icon-fire-safety:before {
+	content: "\e60a";
+}
+.icon-guest-rooms:before {
+	content: "\e60b";
+}
+.icon-guest-room:before
+{
+    content: "\e60b";
+}
+.icon-gym:before {
+	content: "\e60c";
+}
+.icon-hi-tech-gymnasium:before {
+	content: "\e60d";
+}
+.icon-home-theatre:before {
+	content: "\e60e";
+}
+.icon-indoor-games:before {
+	content: "\e60f";
+}
+.icon-landscape-garden:before {
+	content: "\e610";
+}
+.icon-liberary:before {
+	content: "\e611";
+}
+.icon-lift:before {
+	content: "\e612";
+}
+.icon-meditation-center:before {
+	content: "\e613";
+}
+.icon-multipurpose-hall:before {
+	content: "\e614";
+}
+.icon-multipurpose-Party-lawn-hall:before {
+	content: "\e615";
+}
+.icon-party-hall:before {
+	content: "\e616";
+}
+.icon-party-lawn:before {
+	content: "\e617";
+}
+.icon-play-zone:before {
+	content: "\e618";
+}
+.icon-pool:before {
+	content: "\e619";
+}
+.icon-pool-deck:before {
+	content: "\e61a";
+}
+.icon-pool-table:before {
+	content: "\e61b";
+}
+.icon-power-backup:before {
+	content: "\e61c";
+}
+.icon-rain-water-harvesting:before {
+	content: "\e61d";
+}
+.icon-reserved-parking:before {
+	content: "\e61e";
+}
+.icon-sauna-bath:before {
+	content: "\e61f";
+}
+.icon-steam-and-sauna-bath:before {
+	content: "\e620";
+}
+.icon-steam-bath:before {
+	content: "\e621";
+}
+.icon-swimming-pool:before {
+	content: "\e622";
+}
+.icon-temple:before {
+	content: "\e623";
+}
+.icon-tt-room:before {
+	content: "\e624";
+}
+.icon-well-equipped-gym:before {
+	content: "\e625";
+}
+.icon-wifi-zone:before {
+	content: "\e626";
+}
+.icon-yoga-center:before {
+	content: "\e627";
+}
+.icon-yoga-room:before {
+	content: "\e628";
+}

@@ -1,0 +1,14 @@
+.create-new-btn{padding-top: 10px;padding-right: 20px;}
+span.list-group-item:hover{background-color: rgba(0, 0, 0, 0.10);}
+.delete-btn{position: absolute;top: 0;right: 0;padding: 5;}
+.pt15{padding-top: 15px;}
+img.single-image.img {width: 300px;}
+.p8{padding: 8px;}
+.active-li > .dd-handle{background-color: #D8D8D8;}
+.pb-i-20{padding-bottom: 20px !important;}
+.edit-info{display: none;}
+.img-style-gallery{max-height: 170px;position: relative;overflow: hidden;z-index: 0;display: block;}
+.min-height550{min-height: 550px;}
+.form-material>label{top:0;}
+hr{border: 1px solid#eee;}
+.content-heading{margin-top: 0px;}

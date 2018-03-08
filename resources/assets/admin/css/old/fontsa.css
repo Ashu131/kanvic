@@ -1,0 +1,50 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fontsa/icomoon.eot?d24386');
+	src:url('fontsa/icomoon.eot?#iefixd24386') format('embedded-opentype'),
+		url('fontsa/icomoon.ttf?d24386') format('truetype'),
+		url('fontsa/icomoon.woff?d24386') format('woff'),
+		url('fontsa/icomoon.svg?d24386#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	
+	/* Enable Ligatures ================ */
+	letter-spacing: 0;
+	-webkit-font-feature-settings: "liga";
+	-moz-font-feature-settings: "liga=1";
+	-moz-font-feature-settings: "liga";
+	-ms-font-feature-settings: "liga" 1;
+	-o-font-feature-settings: "liga";
+	font-feature-settings: "liga";
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-area:before 
+{
+	content: "\e602";
+}
+.icon-finalmenitiesicons:before {
+	content: "\e600";
+}
+.icon-home3:before {
+	content: "\e603";
+}
+.icon-eyedropper:before {
+	content: "\e601";
+}
+.icon-copy:before {
+	content: "\e604";
+}

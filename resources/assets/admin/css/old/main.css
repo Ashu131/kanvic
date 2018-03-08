@@ -1,0 +1,17 @@
+.imagebox{position:relative; width:300px; float:left; margin:20px;}
+.btnbox{display:none; position:absolute; background:rgba(0,0,0,0.5); width:100%; height:100%;padding-top: 94px; text-align:center;}
+.btnbox a{color:#fff;}
+.btnbox a.del{margin-left:20px;}
+
+.imagebox .coverphoto
+{
+position: absolute;
+    right: 0;
+    top: 0; color:#5cb85c; font-size:20px;
+}
+
+.imagebox:hover .btnbox{display:block;} 
+
+#baseurl{display:none;}
+
+.errormsg{color:#d26a5c !important;}
