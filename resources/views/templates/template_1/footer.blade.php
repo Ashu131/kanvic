@@ -46,7 +46,7 @@
 				<div class="col-sm-3 row footer-block">
 				<h3>Contact</h3>
 				<ul>
-					<li><a href="">Careers</a></li>
+					<li><a href="{{url('career')}}">Careers</a></li>
 					<li class="{{isActiveRoute('contact-us')}}"><a href="{{url('contact-us')}}">Contact us</a></li>
 				</ul>
 			</div>

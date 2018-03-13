@@ -38,7 +38,7 @@
         <li class="{{isActiveRoute('what-we-do')}}"> <a href="{{url('what-we-do')}}">What we do</a> 
           <ul>
               <li>
-                  <p>We develop distinctive and adaptive strategies that help companies succeed in today's complex and uncertain world.</p> 
+                  <p>We develop distinctive and adaptive strategies that help companies succeed in today&apos;s complex and uncertain world.</p> 
               </li>
           </ul>
         </li>
@@ -191,7 +191,7 @@
         <p>Get in touch with our team to learn how we can help your business or how you can start your career in consulting at Kanvic.</p> 
        </div>
        <ul class="label1"> 
-        <li style=""> <a href='#section-join-kanvic'>Careers</a> 
+        <li style=""> <a href="{{url('career')}}">Careers</a> 
             <ul>
               <li>
                 <p>Find out how you can join us and build a firm of the future.</p>

@@ -123,7 +123,10 @@ Route::get('captcha_src',function(){
     return captcha_src();
 });
 
-
+/**
+ * Career Page Route
+ */
+route::get('career',['as'=>'career', 'uses'=>'ashutosh\CarrerController@index']);
 
 Route::group(['namespace' => 'Web'], function () {
 
@@ -153,8 +156,4 @@ Route::get('{page_slug}',['as'=>'show.page.slug','uses'=>'PageController@showPag
 
 });
 
-/**
- * Career Page Route
- */
-route::get('carrer-page/show',['as'=>'career', 'uses'=>'ashutosh\CarrerController@index']);
 
