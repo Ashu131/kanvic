@@ -153,5 +153,8 @@ Route::get('{page_slug}',['as'=>'show.page.slug','uses'=>'PageController@showPag
 
 });
 
+/**
+ * Career Page Route
+ */
 route::get('carrer-page/show',['as'=>'career', 'uses'=>'ashutosh\CarrerController@index']);
 

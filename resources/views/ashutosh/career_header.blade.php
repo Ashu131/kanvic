@@ -191,7 +191,7 @@
         <p>Get in touch with our team to learn how we can help your business or how you can start your career in consulting at Kanvic.</p> 
        </div>
        <ul class="label1"> 
-        <li style=""> <a href="{{route('career')}}">Careers</a>
+        <li style=""> <a href='career'>Careers</a> 
             <ul>
               <li>
                 <p>Find out how you can join us and build a firm of the future.</p>
@@ -218,7 +218,7 @@
   <form method="get" action="{{route('search')}}" id="searchform">
   <i class="fa fa-search"></i>
   {{csrf_field()}}
-    <input type="text" name="query" id="search_qry" placeholder="Type to search..." value="{{$searchquery}}" required>
+    <input type="text" name="query" id="search_qry" placeholder="Type to search..." value="" required>
     <button type="submit">Search</button>
      <button type="button" id="searchclose"><img src="{{url('resources/assets/images/close_search.png')}}" /></button>
   </form>
@@ -229,3 +229,9 @@
 </div>
   
 </header>
+
+
+
+{{-- {!!($data['main_menu'])!!} --}}
+                   
+

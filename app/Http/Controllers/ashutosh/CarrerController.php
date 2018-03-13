@@ -9,6 +9,6 @@ class CarrerController extends Controller
 {
     public function index()
     {
-        view('ashutosh/carrer');
+        return view('ashutosh/carrer');
     }
 }
