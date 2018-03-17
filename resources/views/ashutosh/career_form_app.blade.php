@@ -1,11 +1,14 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+
+    
     <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Careers in consulting at Kanvic - kanvic</title>
-    <meta name="description" content="Build your career in consulting at Kanvic. Join our unique traineeship and internship programmes."/>
-    <meta name="keywords" content="careers in consulting, consulting jobs India, consulting jobs delhi, consulting jobs gurgaon, management consulting jobs, consulting internships"/>
+    {{--  <title>{{$page['meta_title']}} - kanvic</title>  --}}
+    {{--  <meta name="description" content="{{$page['meta_description']}}"/>
+    <meta name="keywords" content="{{$page['meta_keywords']}}"/>  --}}
 
 
     <link rel="shortcut icon" href="{{url('resources/assets/images/favicon.png')}}" />
@@ -29,9 +32,15 @@
 <body class="">
 
     @include('ashutosh.career_header')
-    @yield('content')
-    @include('templates.template_1.footer')
+        @yield('content')
+    @if(session('success'))
+        <script>
+            window.alert("Thank you for your interest in Kanvic. We have received you application and our team will review it shortly. Please be advised that due to the large number of applications we receive, we will only respond to those candidates who are shortlisted for a first round of interview. We generally respond to successful candidates within 2 weeks of receiving an application.");
+        </script>
+    @endif
     @yield('js')
+    <script type="text/javascript" src="{{url('resources/assets/js/jquery.min.js')}}"></script>
+    <script type="text/javascript" src="{{url('resources/assets/js/bootstrap.min.js')}}"></script>
     <script src="{{url('resources/assets/js/career_tabs.js')}}" type="text/javascript"></script> 
     <script src="{{url('resources/assets/js/custom.js')}}" type="text/javascript"></script> 
     <script>

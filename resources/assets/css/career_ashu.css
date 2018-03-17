@@ -5,19 +5,24 @@
     margin-bottom: 50px;
 }
 
-.carrer_what_we_block .col-xs-4{
+.career_what_we_block .col-xs-4{
 	padding: 0px 66px;
 }
-.carrer_what_we_block .row{
+.career_what_we_block .row{
 	margin-top: 30px;
 }
 .career_big_tabs h2,h4,h5{
 	font-weight: bold;
 }
+.career_big_tabs{
+	padding: inherit;
+}
 .career_testimonial h4{
 	margin-top: 5em;
 	margin-left: 0.6em;
 	font-style: italic;
+	font-size: 26px;
+	padding: inherit;
 }
 .career_testimonial p{
 	color: #E27318;
@@ -33,6 +38,30 @@
   border-top: 3px solid #333;
   border-bottom: 3px solid #333;
 }
+.apply-block{
+	background-color: #e8720f;
+}
+.apply-block h1{
+	font-size: -webkit-xxx-large;
+	color: #fff;
+}
+.apply-block a{
+	color: #fff;
+	font-size: 30px;
+}
+.apply-block div{
+	margin: 4em auto;
+}
+.content-wrap section .col-xs-5{
+	margin-top: inherit;
+    padding: 2em;
+}
+.content-wrap section .col-xs-5 h2{
+	text-align: center;
+    color: #e8720f;
+    font-size: 4em;
+}
+
 /*****************************/
 /* Tabs Demo Css */
 /*****************************/
@@ -95,7 +124,7 @@ a:hover, a:focus {
 .tabs {
 	position: relative;
 	overflow: hidden;
-	margin: 0 auto;
+	margin: inherit;
 	width: 100%;
 	font-weight: 300;
 	font-size: 1.25em;
@@ -175,8 +204,8 @@ a:hover, a:focus {
 	font-size: 1.3em;
 	font-family: 'stroke7pixeden';
 	line-height: 1;
-	speak: none;
-	-webkit-backface-visibility: hidden;
+	/* speak: none; */
+	/* -webkit-backface-visibility: hidden; */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -240,10 +269,11 @@ a:hover, a:focus {
 
 .content-wrap section p {
 	margin: 0;
-	padding: 3.75em 0;
+	/* padding: 3.75em 0; */
 	color:inherit;
-	/* font-weight: 900;
-	font-size: 4em; */
+	font: inherit;
+	font-weight: 900;
+	/* font-size: 4em; */
 	line-height: 1;
 }
 
@@ -290,11 +320,11 @@ a:hover, a:focus {
 	box-shadow: inset 0 -2px #d1d3d2;
 	color: inherit;
 	text-align: center;
-	text-transform: uppercase;
-	letter-spacing: 1px;
+	/* text-transform: uppercase; */
+	letter-spacing: 1.4px;
 	font-weight: 700;
-	font-size: 1.09em;
-	line-height: 3;
+	font-size: 1.49em;
+	line-height: 1.2;
 	-webkit-transition: color 0.3s, box-shadow 0.3s;
 	transition: color 0.3s, box-shadow 0.3s;
 }

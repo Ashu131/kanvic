@@ -813,7 +813,7 @@ color: #fff;
 
 .newsletter-sub .error_msg{height: 39px;}
 
-.contact-form input[type='text'],.contact-form input[type='email']{font-size: 21px;width: 100%;height: 61px;border:solid 1px #a1a1a1;padding:5px;background: transparent;font-family: 'System_San_Francisco_Display_Thin';
+.contact-form input[type='text'], input[type='email'], input[type='date'], select{font-size: 21px;width: 100%;height: 61px;border:solid 1px #a1a1a1;padding:5px;background: transparent;font-family: 'System_San_Francisco_Display_Thin';
  }
 .contact-form textarea{width:100%;height: 234px;background: transparent;font-size: 21px;font-family: 'System_San_Francisco_Display_Thin';}
 .contact-form > div{margin-bottom: 20px;}
@@ -2306,13 +2306,17 @@ background: #fff url(../images/nav-bg-marker.png) 50% 23px no-repeat;
 
 
 .talk-to-our-block{margin-bottom: 50px;}
-
-
-
-
-
-
 }
-.xx{
-  background-color: #fff;
+#phone_code select{
+    width: unset;
 }
+#phone_code input{
+    width: 89%;
+}
+#experience{
+    width: 20%;
+}
+#career_submit{
+    background: #e8720f;
+}
+

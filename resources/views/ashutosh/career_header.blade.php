@@ -191,7 +191,7 @@
         <p>Get in touch with our team to learn how we can help your business or how you can start your career in consulting at Kanvic.</p> 
        </div>
        <ul class="label1"> 
-        <li style=""> <a href="{{url('career')}}">Careers</a>
+        <li style=""> <a href="{{ route('career.page') }}">Careers</a>
             <ul>
               <li>
                 <p>Find out how you can join us and build a firm of the future.</p>

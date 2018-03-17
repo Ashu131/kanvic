@@ -123,10 +123,13 @@ Route::get('captcha_src',function(){
     return captcha_src();
 });
 
-/**
+/**---------------------------
  * Career Page Route
+ * ---------------------------
  */
-route::get('career',['as'=>'career', 'uses'=>'ashutosh\CarrerController@index']);
+route::get('careers',['as'=>'career.page', 'uses'=>'ashutosh\CareerController@index']);
+route::get('apply',['as'=>'career.show.form', 'uses'=>'ashutosh\CareerController@showApplicationForm']);
+route::post('apply',['as'=>'career.form.submit', 'uses'=>'ashutosh\CareerController@storeApplicationForm']);
 
 Route::group(['namespace' => 'Web'], function () {
 

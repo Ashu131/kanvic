@@ -3,10 +3,10 @@
     <div class="banner-btm clearfix large-bannerbtm">
 	<div class="container">
 		<div class="sub_menu_tray">
-			<div class="pull-left banner_lft_title">Carrers</div>
+			<div class="pull-left banner_lft_title">Careers</div>
 			<div class="pull-right">
 				<div class="right_menu_link pull-left ">
-					<a href="contact-us">Contact Us</a>
+					<a href="{{ route('career.show.form') }}">Apply here</a>
 				</div>
 				<div class="share_block pull-left">
 					<div class="share_btn">Share</div>
@@ -45,7 +45,7 @@
 			</div>
 		</div>
     </div>
-	<div class="container-fluid carrer_what_we_block">
+	<div class="container-fluid career_what_we_block">
 		<div class="row">
 			<div class="col-xs-4">
 				<h2 class="career-sub-heading">A firm of the future</h2>
@@ -80,7 +80,7 @@
 	</div>
 </div>
 <div class="individual_worklist about_values_list background_color" style="margin-top: 0px; padding-top:20px; text-align:initial">
-	<div class="container-fluid carrer_what_we_block">
+	<div class="container-fluid career_what_we_block">
 		<div class="row">
 			<div class="col-xs-4">
 				<h2 class="career-sub-heading">Do you have a passion for consulting?</h2>
@@ -101,17 +101,17 @@
 			<div class="tabs tabs-style-line">
 				<nav>
 					<ul>
-						<li><a href="#section-line-1"><span>Entrepreneurial Instinct</span></a></li>
-						<li><a href="#section-line-2"><span>Learning Orientation</span></a></li>
-						<li><a href="#section-line-3"><span>Logical Thinking</span></a></li>
-						<li><a href="#section-line-4"><span>Problem-Solving Ability</span></a></li>
-						<li><a href="#section-line-5"><span>Collaborative Mindset</span></a></li>
+						<li><a href="#section-line-1"><span>Entrepreneurial<br>Instinct</span></a></li>
+						<li><a href="#section-line-2"><span>Learning<br>Orientation</span></a></li>
+						<li><a href="#section-line-3"><span>Logical<br>Thinking</span></a></li>
+						<li><a href="#section-line-4"><span>Problem-Solving<br>Ability</span></a></li>
+						<li><a href="#section-line-5"><span>Collaborative<br>Mindset</span></a></li>
 					</ul>
 				</nav>
 				<div class="content-wrap">
 					<section id="section-line-1">
 						<div class="col-xs-2 col-xs-offset-2">
-							<img class="img-responsive" src="{{ asset('resources/assets/img/modules/career/brain.jpg') }}" alt="" />
+							<img class="img-responsive" src="{{ asset('resources/assets/img/modules/career/Entrepreneurial_Instinct.jpg') }}" alt="" />
 						</div>
 						<div class="col-xs-6">
 							<p>
@@ -121,7 +121,7 @@
 					</section>
 					<section id="section-line-2">
 						<div class="col-xs-2 col-xs-offset-2">
-							<img class="img-responsive" src="{{ asset('resources/assets/img/modules/career/brain.jpg') }}" alt="" />
+							<img class="img-responsive" src="{{ asset('resources/assets/img/modules/career/Learning_Orientation.jpg') }}" alt="" />
 						</div>
 						<div class="col-xs-6">
 							<p>
@@ -131,7 +131,7 @@
 					</section>
 					<section id="section-line-3">
 						<div class="col-xs-2 col-xs-offset-2">
-							<img class="img-responsive" src="{{ asset('resources/assets/img/modules/career/brain.jpg') }}" alt="" />
+							<img class="img-responsive" src="{{ asset('resources/assets/img/modules/career/Logical_thinking.jpg') }}" alt="" />
 						</div>
 						<div class="col-xs-6">
 							<p>
@@ -141,7 +141,7 @@
 					</section>
 					<section id="section-line-4">
 						<div class="col-xs-2 col-xs-offset-2">
-							<img class="img-responsive" src="{{ asset('resources/assets/img/modules/career/brain.jpg') }}" alt="" />
+							<img class="img-responsive" src="{{ asset('resources/assets/img/modules/career/Problem_solving_ability.jpg') }}" alt="" />
 						</div>
 						<div class="col-xs-6">
 							<p>
@@ -151,7 +151,7 @@
 					</section>
 					<section id="section-line-5">
 						<div class="col-xs-2 col-xs-offset-2">
-							<img class="img-responsive" src="{{ asset('resources/assets/img/modules/career/brain.jpg') }}" alt="" />
+							<img class="img-responsive" src="{{ asset('resources/assets/img/modules/career/Collaborative_mindet.jpg') }}" alt="" />
 						</div>
 						<div class="col-xs-6">
 							<p>
@@ -178,7 +178,7 @@
 			</div>
 		</div>
     </div>
-	<div class="container-fluid carrer_what_we_block">
+	<div class="container-fluid career_what_we_block">
 		<section>
 			<div class="tabs tabs-style-iconbox">
 				<nav>
@@ -209,7 +209,8 @@
 							</h5>
 						</div>
 						<div class="col-xs-5">
-							<img src="{{ asset('resources/assets/img/modules/career/human.jpg') }}" alt="">
+							<h2 class="sub-heading">6 months traineeship</h2>
+							<h4 class="text-center">leading to a full-time position in the team</h4><br>
 						</div>
 					</section>
 					<section id="section-iconbox-2">
@@ -236,7 +237,8 @@
 							</h5>
 						</div>
 						<div class="col-xs-5">
-							<img src="{{ asset('resources/assets/img/modules/career/human.jpg') }}" alt="">
+							<h2 class="sub-heading">2-6 months internships</h2>
+							<h4 class="text-center">leading to a full-time position in the team</h4><br>
 						</div>
 					</section>
 					<section id="section-iconbox-3">
@@ -263,7 +265,8 @@
 							</h5>
 						</div>
 						<div class="col-xs-5">
-							<img src="{{ asset('resources/assets/img/modules/career/human.jpg') }}" alt="">
+							<h2 class="sub-heading">4-6 months internships</h2>
+							<h4 class="text-center">leading to a full-time position in the team</h4><br>
 						</div>
 					</section>
 					
@@ -285,22 +288,22 @@
 			
 		</div>
 	</div>
-	<div class="container-fluid carrer_what_we_block">
+	<div class="container-fluid career_what_we_block">
 		<div class="row">
 			<div class="col-xs-5">
-				<img src="{{ asset('resources/assets/img/modules/career/human.jpg') }}" alt="">
+				<img src="{{ asset('resources/assets/img/modules/career/Nicholas.png') }}" alt="" class="img-responsive">
 			</div>
 			<div class="col-xs-7 career_testimonial">
 				<h4>
 					&rdquo;
 						My internship at Kanvic was an outstanding experience that gave me the opportunity to work on inspiring business cases and learn from brilliant colleagues. Additionally, it gave me a unique vantage point on the economy and the culture of this incredible country.
 					&rdquo;
+					<p>
+						Nicolas Degroote<br>
+						EDHEC, France
+	
+					</p>
 				</h4>
-				<p>
-					Nicolas Degroote<br>
-					EDHEC, France
-
-				</p>
 			</div>
 		</div>
 		<div class="row">
@@ -309,33 +312,25 @@
 					&rdquo;
 						During my internship at Kanvic, I was able to apply all the theoretical knowledge and frameworks I had studied in the first year of my MBA. The learning curve was exponential, helping me develop a structured approach to solving business problems. However, the best part was the great work culture and people. I could reach out to anyone at anytime and my colleagues would be more than happy to help me out.
 					&rdquo;
+					<p>
+						Javed Alam,<br>
+						IIM Indore, IIT Kharagpur
+	
+					</p>
 				</h4>
-				<p>
-					Javed Alam,<br>
-					IIM Indore, IIT Kharagpur
-
-				</p>
 			</div>
 			<div class="col-xs-5">
-				<img src="{{ asset('resources/assets/img/modules/career/human.jpg') }}" alt="">
+				<img src="{{ asset('resources/assets/img/modules/career/Javed.png') }}" alt="" class="img-responsive">
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-xs-5">
-				<img src="{{ asset('resources/assets/img/modules/career/human.jpg') }}" alt="">
-			</div>
-			<div class="col-xs-7 career_testimonial">
-				<h4>
-					&rdquo;
-						I am grateful for the opportunity to have worked at Kanvic and would definitely recommend this company to anyone looking for a great professional experience with very interesting projects and lots of learning in a multicultural environment. I wish Kanvic continued success.
-					&rdquo;
-				</h4>
-				<p>
-					Adèle,<br>
-					EDHEC, France
-
-				</p>
-			</div>
+		
+	</div>
+	<div class="container-fluid apply-block">
+		<div class="col-sm-12 text-center">
+			<h1 >Join Kanvic to write the future of<br>consulting in India.</h1>
+			<a class="btn" href="#">Apply here
+				<i class="fa fa-angle-right"></i>
+			</a>
 		</div>
 	</div>
 </div>

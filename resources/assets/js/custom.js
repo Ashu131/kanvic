@@ -46,7 +46,7 @@ jQuery(document).on('keypress','.numeric',function(e){
      //if the letter is not digit then display error and don't type anything
      if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
         //display error message
-       // jQuery('this').html("Digits Only").show().fadeOut(1000);
+       jQuery('this').html("Digits Only").show().fadeOut(1000);
                return false;
     }
    });
@@ -354,15 +354,17 @@ $(document).on('click','.mobile_nav_header span', function(){
 
 });
 
-
-
-
 });
 
-$(document).ready(function(){
-
-  $('.banner-btm').click(function(){
-   // alert('hii');
+/**-----------------------------------------------------
+ * Career Form on role change disable some of the option
+ * `````````````````````````````````````````````````````
+ */
+$(document).ready(function () {
+  $("#career_role").on('click', '.associate', function() {
+    alert('hei');
   });
-
 });
+
+
+
