@@ -1,7 +1,6 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-
     
     <meta charset="UTF-8">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
@@ -30,8 +29,13 @@
     </script>
 </head>
 <body class="">
-
-    @include('ashutosh.career_header')
+    <header>
+        <div class="header-container">
+            <div class="logo"><a href="{{url('')}}">
+                <img src="{{url('resources/assets/images/logo.png')}}"></a>
+            </div>
+        </div>
+    </header>
         @yield('content')
     @if(session('success'))
         <script>

@@ -185,14 +185,14 @@
     <div class="col-sm-5">
     <p class="sub-heading">Come and build a firm of the future.</p>
     <p>Pursue your career in consulting at Kanvic.<!--<i class="fa fa-long-arrow-right modal_arrow" data-toggle="modal" data-target="#exampleModal"></i>--></p>
-    <a href="javascript:;" class="btn" data-toggle="modal" data-target="#exampleModal">Join us<i class="fa fa-angle-right"></i></a>
+    <a href="{{ route('career.page') }}" class="btn" >Join us<i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 </section>
 
 
 
-<div class="modal fade career_popup" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+{{--  <div class="modal fade career_popup" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -285,7 +285,7 @@
       </div>
     </div>
   </div>
-</div>
+</div>  --}}
 
 
 {{-- {!!$data['home_slider']!!} --}}

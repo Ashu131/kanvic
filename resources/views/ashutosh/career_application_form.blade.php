@@ -4,7 +4,7 @@
 	<div class="container">
 		<div class="sub_menu_tray">
 			<div class="pull-left banner_lft_title">Application Form</div>
-			<div class="pull-right">
+			{{--  <div class="pull-right">
 				<div class="right_menu_link pull-left ">
 					<a href="{{ route('career.show.form') }}">Contact Us</a>
 				</div>
@@ -19,11 +19,19 @@
 						</ul>
 					</div>
 				</div>
-			</div>
+			</div>  --}}
 		</div>
 	</div>
 </div>
-
+<div class="inner-banner about_banner">
+	<div class="container text-center retail_heading">
+		<h1 class="banner-title1">Application Form</h1>
+		{{--  <h2 class="banner-title">Come and build a firm of the<br> future.</h2>
+		<h6 class="sub-title">
+			We seek out people from diverse backgrounds who are not only looking to experience the highest quality of consulting but also help us build a platform where people with a passion for consulting can explore their true potential.
+        </h6>  --}}
+	</div>
+</div>
 <section id="contact-section-form">
     <div class="container">
         <div class="row">
@@ -192,7 +200,7 @@
 
                     <div class="col-sm-12"/>
                         <p>Current Occupation :</p>
-                        <textarea name='occupation'>{{ old('occupation') }}</textarea>
+                        <input type='text' name='occupation' value="{{ old('occupation') }}">
                         @if ($errors->has('occupation'))
                             <span class="help-block">
                                 <strong style="color:red;">This field is required.</strong>
@@ -213,7 +221,7 @@
 
                     <div class="col-sm-12"/>
                         <p>Name of most recent educational institute :</p>
-                        <textarea name='recent_education'>{{ old('recent_education') }}</textarea>
+                        <input type="text" name="recent_education" value="{{ old('recent_education') }}">
                         @if ($errors->has('recent_education'))
                             <span class="help-block">
                                 <strong style="color:red;">This field is required.</strong>
@@ -248,7 +256,7 @@
                     </div>
 
                     <div class="col-sm-12"/>
-                        <p>Why do you want to join Kanvic?</p>
+                        <p>Why do you want to join Kanvic?</p><span>(Maximum 250 characters allowed.)</span>
                         <textarea name='question1'>{{ old('question1') }}</textarea>
                         @if ($errors->has('question1'))
                             <span class="help-block">
@@ -258,7 +266,7 @@
                     </div>
 
                     <div class="col-sm-12"/>
-                        <p>What are your long-term career goals?</p>
+                        <p>What are your long-term career goals?</p><span>(Maximum 250 characters allowed.)</span>
                         <textarea name='question2'>{{ old('question2') }}</textarea>
                         @if ($errors->has('question2'))
                             <span class="help-block">

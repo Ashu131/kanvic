@@ -52,11 +52,11 @@
 .apply-block div{
 	margin: 4em auto;
 }
-.content-wrap section .col-xs-5{
+.content-wrap section .career_big_tabs_right{
 	margin-top: inherit;
     padding: 2em;
 }
-.content-wrap section .col-xs-5 h2{
+.content-wrap section .career_big_tabs_right h2{
 	text-align: center;
     color: #e8720f;
     font-size: 4em;
@@ -368,6 +368,10 @@ a:hover, a:focus {
 	line-height: 1.5;
 	-webkit-transition: color 0.2s;
 	transition: color 0.2s;
+}
+
+.tabs-style-iconbox nav ul li a:hover{
+	color: #4C4B48;
 }
 
 .tabs-style-iconbox nav ul li a span {

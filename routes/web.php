@@ -131,6 +131,8 @@ route::get('careers',['as'=>'career.page', 'uses'=>'ashutosh\CareerController@in
 route::get('apply',['as'=>'career.show.form', 'uses'=>'ashutosh\CareerController@showApplicationForm']);
 route::post('apply',['as'=>'career.form.submit', 'uses'=>'ashutosh\CareerController@storeApplicationForm']);
 
+//============================
+
 Route::group(['namespace' => 'Web'], function () {
 
 Route::get('event/{slug}',['as'=>'show.event.slug','uses'=>'Admin\AdminBlogController@getEvent']);

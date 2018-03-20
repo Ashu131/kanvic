@@ -11,9 +11,6 @@
     </div>
   </button>
   <div class="mobile_menu">
-    <!--<div class="menulogo">
-   
-    </div>-->
     <div class="mobile_menu_outer">
     <ul class="navbar-nav">
     <div class="mobile_nav_header"> <a href="{{url('')}}"><img src="{{url('resources/assets/images/logo.png')}}"></a></div>
@@ -229,9 +226,3 @@
 </div>
   
 </header>
-
-
-
-{{-- {!!($data['main_menu'])!!} --}}
-                   
-

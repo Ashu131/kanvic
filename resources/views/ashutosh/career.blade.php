@@ -113,7 +113,7 @@
 						<div class="col-xs-2 col-xs-offset-2">
 							<img class="img-responsive" src="{{ asset('resources/assets/img/modules/career/Entrepreneurial_Instinct.jpg') }}" alt="" />
 						</div>
-						<div class="col-xs-6">
+						<div class="col-xs-6" style="margin-top:inherit;">
 							<p>
 								We expect everyone in our team to think like owners and act at start-up speed. Hence, we seek out individuals who have an instinct for spotting opportunities, quickly building relevant capabilities and executing effectively.
 							</p>
@@ -123,7 +123,7 @@
 						<div class="col-xs-2 col-xs-offset-2">
 							<img class="img-responsive" src="{{ asset('resources/assets/img/modules/career/Learning_Orientation.jpg') }}" alt="" />
 						</div>
-						<div class="col-xs-6">
+						<div class="col-xs-6" style="margin-top:inherit;">
 							<p>
 								We strive to be at the cutting-edge in everything we do. Therefore we look for candidates with a thirst for continuous learning and self-improvement. That are constantly motivated to push the boundaries of their own knowledge, of the firm&apos;s and of their field.
 							</p>
@@ -133,7 +133,7 @@
 						<div class="col-xs-2 col-xs-offset-2">
 							<img class="img-responsive" src="{{ asset('resources/assets/img/modules/career/Logical_thinking.jpg') }}" alt="" />
 						</div>
-						<div class="col-xs-6">
+						<div class="col-xs-6" style="margin-top:inherit;">
 							<p>
 								A rigorous and structured approach is essential to identifying the root causes of our clients&apos; problems. As a result, we require candidates who can demonstrate a high level of logical reasoning.
 							</p>
@@ -143,7 +143,7 @@
 						<div class="col-xs-2 col-xs-offset-2">
 							<img class="img-responsive" src="{{ asset('resources/assets/img/modules/career/Problem_solving_ability.jpg') }}" alt="" />
 						</div>
-						<div class="col-xs-6">
+						<div class="col-xs-6" style="margin-top:inherit;">
 							<p>
 								Our clients hire us to solve their toughest strategic problems. Therefore we look for people who can apply creativity, persistence, and innovation to develop unique solutions to the most complex problems.
 							</p>
@@ -153,7 +153,7 @@
 						<div class="col-xs-2 col-xs-offset-2">
 							<img class="img-responsive" src="{{ asset('resources/assets/img/modules/career/Collaborative_mindet.jpg') }}" alt="" />
 						</div>
-						<div class="col-xs-6">
+						<div class="col-xs-6" style="margin-top:inherit;">
 							<p>
 								We are able to deliver unparalleled impact in our clients&apos; organisations thanks to the unique combination of skill-sets we bring to their problems and the highly collaborative way we work with their teams. Consequently, we always look for people who can demonstrate a high level of emotional intelligence and a strong team ethic.
 							</p>
@@ -165,17 +165,11 @@
 	</div>
 </div>
 {{--  Career Page Bottom Tabs  --}}
-<div class="individual_how_work mb-85 who_people_list" style="padding-top: 100px;">
-	<div class="container" style="margin-bottom: 100px;">
+<div class="individual_how_work who_people_list" style="padding-top: 100px;">
+	<div class="container" style="margin-bottom: 20px;">
 		<div class="text-center">
 			<h2 class="sub-heading text-center">How to join us.</h2>
-			<div class="col-sm-10 howworktxt">
-				{{--  <p>
-                    We believe that at its heart any business is all about its people. At Kanvic we are<br>
-					building a firm with a single overarching purpose - to explore people&apos;s true<br>
-					potential - whether in our clients&apos; organisations or our own.
-                </p>  --}}
-			</div>
+			
 		</div>
     </div>
 	<div class="container-fluid career_what_we_block">
@@ -190,7 +184,7 @@
 				</nav>
 				<div class="content-wrap">
 					<section id="section-iconbox-1">
-						<div class="col-xs-7 career_big_tabs">
+						<div class="col-xs-6 career_big_tabs">
 							<h2 class="sub-heading">Associate Consultant Traineeship</h2>
 							<h4>Mission</h4><br>
 							<h5>
@@ -208,13 +202,13 @@
 								The Traineeship is open to candidates who have completed their undergraduate or postgraduate studies and have up to three years relevant professional experience.
 							</h5>
 						</div>
-						<div class="col-xs-5">
+						<div class="col-xs-6 career_big_tabs_right">
 							<h2 class="sub-heading">6 months traineeship</h2>
 							<h4 class="text-center">leading to a full-time position in the team</h4><br>
 						</div>
 					</section>
 					<section id="section-iconbox-2">
-						<div class="col-xs-7 career_big_tabs">
+						<div class="col-xs-6 career_big_tabs">
 							<h2 class="sub-heading">Internships for Indian Students</h2>
 							<h4>Mission</h4><br>
 							<h5>
@@ -236,13 +230,13 @@
 								Students undertaking Bachelors, Masters or MBA in a relevant area of study in India can apply. Candidates in the pre-final or final year of their studies will be preferred.
 							</h5>
 						</div>
-						<div class="col-xs-5">
+						<div class="col-xs-6 career_big_tabs_right">
 							<h2 class="sub-heading">2-6 months internships</h2>
 							<h4 class="text-center">leading to a full-time position in the team</h4><br>
 						</div>
 					</section>
 					<section id="section-iconbox-3">
-						<div class="col-xs-7 career_big_tabs">
+						<div class="col-xs-6 career_big_tabs">
 							<h2 class="sub-heading">Internships for International Students</h2>
 							<h4>Mission</h4><br>
 							<h5>
@@ -264,7 +258,7 @@
 								Students undertaking Bachelors, Masters or MBA in a relevant area of study can apply. This internship can form part of a student’s academic programme or a ‘gap year’ between studies.
 							</h5>
 						</div>
-						<div class="col-xs-5">
+						<div class="col-xs-6 career_big_tabs_right">
 							<h2 class="sub-heading">4-6 months internships</h2>
 							<h4 class="text-center">leading to a full-time position in the team</h4><br>
 						</div>
@@ -274,6 +268,9 @@
 			</div>
 		</section>
 	</div>
+</div>
+<div class="container">
+	<hr class="divider about-divider" />
 </div>
 <div class="expertise-study_block mt-0 ">
 	<div class="container">
@@ -327,8 +324,8 @@
 	</div>
 	<div class="container-fluid apply-block">
 		<div class="col-sm-12 text-center">
-			<h1 >Join Kanvic to write the future of<br>consulting in India.</h1>
-			<a class="btn" href="#">Apply here
+			<h1 >Build your career in consulting<br>with Kanvic.</h1>
+			<a class="btn" href="{{ route('career.show.form') }}">Apply here
 				<i class="fa fa-angle-right"></i>
 			</a>
 		</div>
