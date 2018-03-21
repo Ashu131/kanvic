@@ -216,11 +216,11 @@
 							</h5><br>
 							<h4>Opportunities</h4><br>
 							<h5>
-								During the course of the internship, the candidate has the opportunity to apply their course learning in real projects by:
+								During the course of the internship, the candidate has the opportunity to apply their course learning in real projects by:<br>
 
-									- Working on top management issues affecting leading companies
-									- Working closely with highly experienced senior consultants
-									- Working on a wide variety of projects covering different sectors and functions
+									- Working on top management issues affecting leading companies<br>
+									- Working closely with highly experienced senior consultants<br>
+									- Working on a wide variety of projects covering different sectors and functions<br>
 
 									Upon successful completion of the internship, interested candidates may be assessed for their potential to join the Kanvic team on a permanent basis after completion of their studies.
 
@@ -232,7 +232,7 @@
 						</div>
 						<div class="col-xs-6 career_big_tabs_right">
 							<h2 class="sub-heading">2-6 months internships</h2>
-							<h4 class="text-center">leading to a full-time position in the team</h4><br>
+							{{--  <h4 class="text-center">leading to a full-time position in the team</h4><br>  --}}
 						</div>
 					</section>
 					<section id="section-iconbox-3">
@@ -244,11 +244,11 @@
 							</h5><br>
 							<h4>Opportunities</h4><br>
 							<h5>
-								International interns have the opportunity to apply their course learning in real projects through:
+								International interns have the opportunity to apply their course learning in real projects through:<br>
 
-								- Working on top management issues affecting leading companies in India
-								- Working alongside highly skilled senior consultants with extensive experience in India and around the world
-								- Working on a wide variety of projects covering different sectors of the Indian economy and spanning multiple business functions
+								- Working on top management issues affecting leading companies in India<br>
+								- Working alongside highly skilled senior consultants with extensive experience in India and around the world<br>
+								- Working on a wide variety of projects covering different sectors of the Indian economy and spanning multiple business functions<br>
 
 								Past international interns have come from leading academic institutions in countries including France, UK, Germany, Italy, and Russia.
 
@@ -260,7 +260,7 @@
 						</div>
 						<div class="col-xs-6 career_big_tabs_right">
 							<h2 class="sub-heading">4-6 months internships</h2>
-							<h4 class="text-center">leading to a full-time position in the team</h4><br>
+							{{--  <h4 class="text-center">leading to a full-time position in the team</h4><br>  --}}
 						</div>
 					</section>
 					

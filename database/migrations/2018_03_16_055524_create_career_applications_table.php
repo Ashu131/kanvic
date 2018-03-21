@@ -28,7 +28,6 @@ class CreateCareerApplicationsTable extends Migration
             $table->string('location', 50)->nullable();
             $table->string('start_date', 30)->nullable();
             $table->string('end_date', 30)->nullable();
-            $table->string('duration', 20)->nullable();
             $table->text('occupation')->nullable();
             $table->string('experience', 10)->nullable();
             $table->text('recent_education')->nullable();

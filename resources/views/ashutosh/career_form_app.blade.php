@@ -46,6 +46,7 @@
     <script type="text/javascript" src="{{url('resources/assets/js/jquery.min.js')}}"></script>
     <script type="text/javascript" src="{{url('resources/assets/js/bootstrap.min.js')}}"></script>
     <script src="{{url('resources/assets/js/career_tabs.js')}}" type="text/javascript"></script> 
+    <script src="{{url('resources/assets/js/career_ashu.js')}}" type="text/javascript"></script> 
     <script src="{{url('resources/assets/js/custom.js')}}" type="text/javascript"></script> 
     <script>
         (function() {

@@ -30,6 +30,11 @@
 
     @include('ashutosh.career_header')
     @yield('content')
+    @if(session('success'))
+        <script>
+            window.alert("Thank you for your interest in Kanvic. We have received you application and our team will review it shortly. Please be advised that due to the large number of applications we receive, we will only respond to those candidates who are shortlisted for a first round of interview. We generally respond to successful candidates within 2 weeks of receiving an application.");
+        </script>
+    @endif
     @include('templates.template_1.footer')
     @yield('js')
     <script src="{{url('resources/assets/js/career_tabs.js')}}" type="text/javascript"></script> 

@@ -5,7 +5,12 @@ namespace App\Http\Controllers\ashutosh;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
+//Use Facades
+use Mail;
+use App\Mail\ApplicationSubmitted;
+
 use App\Models\Application;
+use App\Models\Country;
 
 class CareerController extends Controller
 {
@@ -19,7 +24,8 @@ class CareerController extends Controller
      */
     public function showApplicationForm()
     {
-        return view('ashutosh.career_application_form');
+        $countries= Country::all();
+        return view('ashutosh.career_application_form')->with('countries', $countries);
     }
 
     /**
@@ -29,31 +35,36 @@ class CareerController extends Controller
     {
         //------------Validate before submitting-------------//
             $this->validate($request,[
-                'fname'             => 'required|string|max:100',
-                'lname'             => 'required|max:100',
-                'gender'            => 'required|max:10',
-                'nationality'       => 'required|max:100',
-                'email'             => 'required|max:100',
-                'phone_code'        => 'required|max:5',
-                'phone'             => 'required|max:20',
-                'career_role'       => 'required|max:100',
-                'interest'          => 'required|max:50',
-                'location'          => 'required|max:50',
-                'start_date'        => 'required|max:30',
-                'end_date'          => 'max:30',
-                'duration'          => 'max:20',
-                'occupation'        => 'required|max:250',
-                'experience'        => 'required|max:10',
-                'recent_education'  => 'required|max:250',
-                'high_education'    => 'required|max:40',
-                'other_education'   => 'max:250',
-                'question1'         => 'required|max:250',
-                'question2'         => 'required|max:250',
-                'cv'                => 'required|max:5120',
-                'portfolio'         => 'max:5120'
+                // 'fname'             => 'required|string|max:100',
+                // 'lname'             => 'required|max:100',
+                // 'gender'            => 'required|max:10',
+                // 'nationality'       => 'required|max:100',
+                // 'email'             => 'required|max:100',
+                // 'phone_code'        => 'required|max:5',
+                // 'phone'             => 'required|max:20',
+                // 'career_role'       => 'required|max:100',
+                // 'interest'          => 'required|max:50',
+                // 'location'          => 'required|max:50',
+                // 'start_date'        => 'required|max:30',
+                // 'end_date'          => 'max:30',
+                // 'occupation'        => 'required|max:250',
+                // 'experience'        => 'required|max:10',
+                // 'recent_education'  => 'required|max:250',
+                // 'high_education'    => 'required|max:40',
+                // 'other_education'   => 'max:250',
+                // 'question1'         => 'required',
+                // 'question2'         => 'required',
+                // 'cv'                => 'required|max:5120',
+                // 'portfolio'         => 'max:5120'
                                
                 
             ]);
+
+        // if(count(explode(' ', $request->question1)) > 2){
+        //     $errors->question1=true;
+        //     return back();
+        // }
+        
 
         /*+++++++++++++++++++++++++++++++++++++++++++
         | Handle Files Uploading
@@ -104,7 +115,6 @@ class CareerController extends Controller
         $data->location         = $request->location;
         $data->start_date       = $request->start_date;
         $data->end_date         = $request->end_date;
-        $data->duration         = $request->duration;
         $data->occupation       = $request->occupation;
         $data->experience       = $request->experience;
         $data->recent_education = $request->recent_education;
@@ -112,13 +122,26 @@ class CareerController extends Controller
         $data->other_education  = $request->other_education;
         $data->question1        = $request->question1;
         $data->question2        = $request->question2;
-        $data->cv               = $filenameToStore;
-        $data->portfolio        = $CvfilenameToStore;
+        $data->cv               = $CvfilenameToStore;
+        $data->portfolio        = $filenameToStore;
         $data->link             = $request->link;
 
         $data->save();
 
+        /*=======================================================
+        |Send Mail to Admin after Application Submit by Applicant
+        |========================================================
+        */
+        $data=Application::latest()->first();
+        Mail::to('careers@kanvic.com')->send(new ApplicationSubmitted($data));
+        if (Mail::failures()) {
+            foreach(Mail::failures as $email_address) {
+                echo " - $email_address <br />";
+                }
+        }
         return redirect()->route('career.page')->with('success', 'updated');
     }
+
+    
 }
 

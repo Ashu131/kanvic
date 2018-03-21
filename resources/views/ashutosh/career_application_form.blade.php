@@ -4,22 +4,6 @@
 	<div class="container">
 		<div class="sub_menu_tray">
 			<div class="pull-left banner_lft_title">Application Form</div>
-			{{--  <div class="pull-right">
-				<div class="right_menu_link pull-left ">
-					<a href="{{ route('career.show.form') }}">Contact Us</a>
-				</div>
-				<div class="share_block pull-left">
-					<div class="share_btn">Share</div>
-					<div class="share_icon">
-						<ul>
-							<li data-bgcolor="#0077b7"><a class="linkedin" href="https://www.linkedin.com/company/kanvic-consulting-private-limited" target="_blank"><img src="{{ asset('resources/assets/images/linkdin.png') }}" alt="" /></a></li>
-							<li data-bgcolor="#50abf1"><a class="twitter" href="https://twitter.com/Kanvic?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img src="{{ asset('resources/assets/images/twitter.png') }}" alt="" /></a></li>
-							<li data-bgcolor="#3a559f"><a class="facebook" href="https://www.facebook.com/kanvicconsulting/" target="_blank"><img src="{{ asset('resources/assets/images/facebook.png') }}" alt="" /></a></li>
-							<li data-bgcolor="#2d99ed"><a class="envelope" href="mailto:careers@kanvic.com"><img src="{{ asset('resources/assets/images/mail.png') }}" alt="" /></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>  --}}
 		</div>
 	</div>
 </div>
@@ -77,8 +61,9 @@
                         <p>Nationality :</p>
                         <select name="nationality">
                             <option value="">Select</option>
-                            <option value="Indian" {{old('nationality')=="Indian"?'selected':''}}>Indian</option>
-                            <option value="American" {{old('nationality')=="American"?'selected':''}}>American</option>
+                            @foreach ($countries as $item)
+                                <option value="{{$item->country_name}}" {{old('nationality')=="$item->country_name"?'selected':''}}>{{$item->country_name}}</option>
+                            @endforeach
                         </select>
                         @if ($errors->has('nationality'))
                             <span class="help-block">
@@ -97,12 +82,9 @@
                         @endif
                     </div>
 
-                    <div class="col-sm-12" id="phone_code">
+                    <div class="col-sm-12" id="phone">
                         <p>Phone :</p>
-                        <select name="phone_code">
-                            <option value="91" {{old('phone_code')==91?'selected':''}}>+91</option>
-                            <option value="92" {{old('phone_code')==92?'selected':''}}>+92</option>
-                        </select>
+                        <input type='text' class='numeric' id="phone_code" name='phone_code' value="{{ old('phone_code') }}">
                         @if ($errors->has('phone_code'))
                             <span class="help-block">
                                 <strong style="color:red;">This field is required.</strong>
@@ -171,27 +153,10 @@
                     </div>
 
                     <div class="col-sm-12"/>
-                        <p>Available end date :</p>
+                        <p>Preferred end date :</p>
+                        <span>(Choose only for internship)</span>
                         <input type="date" name="end_date" value="{{ old('end_date') }}">
                         @if ($errors->has('end_date'))
-                            <span class="help-block">
-                                <strong style="color:red;">This field is required.</strong>
-                            </span>
-                        @endif
-                    </div>
-
-                    <div class="col-sm-12"/>
-                        <p>Duration available for :</p>
-                        <span>Choose duration only for internship.</span>
-                        <select name="duration">
-                            <option value="">Select</option>
-                            <option value="2 Months" {{old('duration')=="2 Months"?'selected':''}}>2 Months</option>
-                            <option value="3 Months" {{old('duration')=="3 Months"?'selected':''}}>3 Months</option>
-                            <option value="4 Months" {{old('duration')=="4 Months"?'selected':''}}>4 Months</option>
-                            <option value="5 Months" {{old('duration')=="5 Months"?'selected':''}}>5 Months</option>
-                            <option value="6 Months" {{old('duration')=="6 Months"?'selected':''}}>6 Months</option>
-                        </select>
-                        @if ($errors->has('duration'))
                             <span class="help-block">
                                 <strong style="color:red;">This field is required.</strong>
                             </span>
@@ -256,8 +221,8 @@
                     </div>
 
                     <div class="col-sm-12"/>
-                        <p>Why do you want to join Kanvic?</p><span>(Maximum 250 characters allowed.)</span>
-                        <textarea name='question1'>{{ old('question1') }}</textarea>
+                        <p>Why do you want to join Kanvic?</p><span>(Maximum 250 words allowed.)</span>
+                        <textarea name='question1' id="question1">{{ old('question1') }}</textarea>
                         @if ($errors->has('question1'))
                             <span class="help-block">
                                 <strong style="color:red;">This field is required, Max 250 Words.</strong>
@@ -266,7 +231,7 @@
                     </div>
 
                     <div class="col-sm-12"/>
-                        <p>What are your long-term career goals?</p><span>(Maximum 250 characters allowed.)</span>
+                        <p>What are your long-term career goals?</p><span>(Maximum 250 words allowed.)</span>
                         <textarea name='question2'>{{ old('question2') }}</textarea>
                         @if ($errors->has('question2'))
                             <span class="help-block">

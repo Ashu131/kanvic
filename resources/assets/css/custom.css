@@ -2307,10 +2307,10 @@ background: #fff url(../images/nav-bg-marker.png) 50% 23px no-repeat;
 
 .talk-to-our-block{margin-bottom: 50px;}
 }
-#phone_code select{
-    width: unset;
+#phone #phone_code{
+    width: 10%;
 }
-#phone_code input{
+#phone input{
     width: 89%;
 }
 #experience{
