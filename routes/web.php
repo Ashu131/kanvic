@@ -133,6 +133,14 @@ route::post('apply',['as'=>'career.form.submit', 'uses'=>'ashutosh\CareerControl
 
 //============================
 
+/**---------------------------
+ * Blog page route
+ * ---------------------------
+ */
+route::get('blogs',['as'=>'blogs', 'uses'=>'ashutosh\BlogsController@index']);
+
+//============================
+
 Route::group(['namespace' => 'Web'], function () {
 
 Route::get('event/{slug}',['as'=>'show.event.slug','uses'=>'Admin\AdminBlogController@getEvent']);

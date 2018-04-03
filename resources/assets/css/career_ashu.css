@@ -62,6 +62,24 @@
     font-size: 4em;
 }
 
+/* Blog Page CSS */
+.ashu_blog h4{
+	font-size: 40px;
+}
+.ashu_blog h6{
+	font-size: 21px;
+}
+.ashu_blog .blog_date{
+	font-style: italic;
+}
+.ashu_blog .divider{
+	width: 85%;
+	margin: 40px auto;
+}
+.ashu_blog a.inline{
+	font-size: 2.9em;
+}
+
 /*****************************/
 /* Tabs Demo Css */
 /*****************************/

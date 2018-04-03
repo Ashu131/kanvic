@@ -178,6 +178,13 @@
               </li>
             </ul> 
         </li>
+        <li class="{{isActiveRoute('blogs')}}"> <a href="{{route('blogs')}}">Blog</a>
+            <ul>
+              <li>
+                <p>Explore our latest blogs on  management thinking, most critical business issues.</p>
+              </li>
+            </ul> 
+        </li>
         </ul>
         </div>
         </div>
@@ -191,7 +198,7 @@
         <p>Get in touch with our team to learn how we can help your business or how you can start your career in consulting at Kanvic.</p> 
        </div>
        <ul class="label1"> 
-        <li style=""> <a href="{{url('career')}}">Careers</a> 
+        <li style=""> <a href="{{ route('career.page') }}">Careers</a> 
             <ul>
               <li>
                 <p>Find out how you can join us and build a firm of the future.</p>

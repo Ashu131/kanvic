@@ -175,6 +175,13 @@
               </li>
             </ul> 
         </li>
+        <li class="{{isActiveRoute('blogs')}}"> <a href="{{route('blogs')}}">Blog</a>
+            <ul>
+              <li>
+                <p>Explore our latest blogs on  management thinking, most critical business issues.</p>
+              </li>
+            </ul> 
+        </li>
         </ul>
         </div>
         </div>
