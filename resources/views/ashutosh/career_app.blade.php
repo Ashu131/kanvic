@@ -13,7 +13,6 @@
     <link rel='stylesheet' href="{{url('resources/assets/css/font-awesome.css')}}" type='text/css' media='all' />
     
     <link rel='stylesheet' href="{{url('resources/assets/css/custom.css')}}" type='text/css' media='all' />
-    <link rel='stylesheet' href="{{url('resources/assets/css/career_ashu.css')}}" type='text/css' media='all' />
     
     {{--  <script src="{{url('resources/assets/js/career_tab_modernizr.custom.js')}}" type="text/javascript"></script>   --}}
     
@@ -36,6 +35,7 @@
         </script>
     @endif
     @include('templates.template_1.footer')
+    <link rel='stylesheet' href="{{url('resources/assets/css/career_ashu.css')}}" type='text/css' media='all' />    
     @yield('js')
     <script src="{{url('resources/assets/js/career_tabs.js')}}" type="text/javascript"></script> 
     <script src="{{url('resources/assets/js/custom.js')}}" type="text/javascript"></script> 

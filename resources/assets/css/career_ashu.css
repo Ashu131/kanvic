@@ -397,9 +397,9 @@ a:hover, a:focus {
 	font-size: 1.5em;	
 }
 
-.tabs-style-iconbox nav ul li.tab-current {
+/* .tabs-style-iconbox nav ul li.tab-current {
 	z-index: 100;
-}
+} */
 
 .tabs-style-iconbox nav ul li.tab-current a {
 	background: #E2E2E2;
@@ -445,3 +445,466 @@ a:hover, a:focus {
 /*****************************/
 /* Icon box END********** */
 /*****************************/
+
+/*****************************/
+/* MEDIA QUERIES */
+/*****************************/
+@media screen and (max-width: 320px){
+.career-sub-heading{
+	margin-top: 0px;
+	margin-bottom: 10px;
+	font-size: 8px;
+}
+.career_what_we_block .col-xs-4 {
+    padding: 0px 3px;
+}
+.career_what_we_block .row p{
+	font-size: 7px;
+    line-height: 1.2;
+}
+.individual_how_work.who_people_list{
+	padding-top: 20px !important;
+}
+.mb-85 {
+    margin-bottom: 20px;
+}
+.about-what-block1{
+	margin-top: 15px;
+}
+.background_color{
+	padding-top: 15px;
+}
+.content-wrap section{
+	margin-top: 5px;
+	padding: 5px;
+}
+.content-wrap section p{
+	font-size: 10px;
+}
+.section-content{
+	margin-top: 0px !important;
+}
+.content-wrap section img{
+	height: 42px;
+    width: 37px;
+    max-width: unset;
+}
+.tabs-style-iconbox nav ul li a{
+	padding: 0.6em 0;
+	line-height: 1;
+}
+.tabs-style-iconbox nav ul li a span{
+	font-size: 18px;
+}
+.content-wrap section .career_big_tabs_right{
+	padding: 0em;
+}
+.content-wrap section .career_big_tabs_right h2{
+	font-size: 1em;
+}
+.tabs-style-iconbox h2,h4,h5{
+	font-size: 10px;
+}
+.career_testimonial h4{
+	margin-top: 1em;
+    margin-left: 0em;
+    font-style: italic;
+    font-size: 5px;
+    padding: 2px;
+}
+.testimonials img{
+	max-width: 45%;
+}
+.apply-block h1{
+	font-size: 25px;
+}
+.apply-block a{
+	font-size: 15px;
+}
+.expertise-study_block a, .expertise-think_block a{
+	margin-top: 15px;
+}
+.tabs-style-line nav a{
+	padding: 3px 10px;
+	letter-spacing: 2px;
+	font-size: 1em;
+	line-height: 1;
+}
+.footer-menu ul li{
+	margin-bottom: 1px;
+}
+}
+/* Max Width 320 End */
+
+@media screen and (max-width: 360px){
+.career-sub-heading{
+	margin-top: 0px;
+	margin-bottom: 10px;
+	font-size: 8px;
+}
+.career_what_we_block .col-xs-4 {
+    padding: 0px 3px;
+}
+.career_what_we_block .row p{
+	font-size: 7px;
+    line-height: 1.2;
+}
+.individual_how_work.who_people_list{
+	padding-top: 20px !important;
+}
+.mb-85 {
+    margin-bottom: 20px;
+}
+.about-what-block1{
+	margin-top: 15px;
+}
+.background_color{
+	padding-top: 15px;
+}
+.content-wrap section{
+	margin-top: 5px;
+	padding: 5px;
+}
+.content-wrap section p{
+	font-size: 10px;
+}
+.section-content{
+	margin-top: 0px !important;
+}
+.content-wrap section img{
+	height: 42px;
+    width: 37px;
+    max-width: unset;
+}
+.tabs-style-iconbox nav ul li a{
+	padding: 0.6em 0;
+	line-height: 1;
+}
+.tabs-style-iconbox nav ul li a span{
+	font-size: 20px;
+}
+.content-wrap section .career_big_tabs_right{
+	padding: 0em;
+}
+.content-wrap section .career_big_tabs_right h2{
+	font-size: 1em;
+}
+.tabs-style-iconbox h2,h4,h5{
+	font-size: 10px;
+}
+.career_testimonial h4{
+	margin-top: 1em;
+    margin-left: 0em;
+    font-style: italic;
+    font-size: 5px;
+    padding: 2px;
+}
+.testimonials img{
+	max-width: 45%;
+}
+.apply-block h1{
+	font-size: 25px;
+}
+.apply-block a{
+	font-size: 15px;
+}
+.expertise-study_block a, .expertise-think_block a{
+	margin-top: 15px;
+}
+.tabs-style-line nav a{
+	padding: 3px 10px;
+	letter-spacing: 2px;
+	font-size: 1em;
+	line-height: 1;
+}
+.footer-menu ul li{
+	margin-bottom: 1px;
+}
+
+}
+/* Max width 360px */
+
+@media screen and (max-width: 375px){
+.career-sub-heading{
+	margin-top: 0px;
+	margin-bottom: 10px;
+	font-size: 8px;
+}
+.career_what_we_block .col-xs-4 {
+    padding: 0px 3px;
+}
+.career_what_we_block .row p{
+	font-size: 7px;
+    line-height: 1.2;
+}
+.individual_how_work.who_people_list{
+	padding-top: 20px !important;
+}
+.mb-85 {
+    margin-bottom: 20px;
+}
+.about-what-block1{
+	margin-top: 15px;
+}
+.background_color{
+	padding-top: 15px;
+}
+.content-wrap section{
+	margin-top: 5px;
+	padding: 5px;
+}
+.content-wrap section p{
+	font-size: 10px;
+}
+.section-content{
+	margin-top: 0px !important;
+}
+.content-wrap section img{
+	height: 42px;
+    width: 37px;
+    max-width: unset;
+}
+.tabs-style-iconbox nav ul li a{
+	padding: 0.6em 0;
+	line-height: 1;
+}
+.tabs-style-iconbox nav ul li a span{
+	font-size: 22px;
+}
+.content-wrap section .career_big_tabs_right{
+	padding: 0em;
+}
+.content-wrap section .career_big_tabs_right h2{
+	font-size: 1em;
+}
+.tabs-style-iconbox h2,h4,h5{
+	font-size: 10px;
+}
+.career_testimonial h4{
+	margin-top: 1em;
+    margin-left: 0em;
+    font-style: italic;
+    font-size: 5px;
+    padding: 2px;
+}
+.testimonials img{
+	max-width: 45%;
+}
+.apply-block h1{
+	font-size: 18px;
+}
+.apply-block a{
+	font-size: 15px;
+}
+.expertise-study_block a, .expertise-think_block a{
+	margin-top: 15px;
+}
+.tabs-style-line nav a{
+	padding: 3px 10px;
+	letter-spacing: 2px;
+	font-size: 1em;
+	line-height: 1;
+}
+.footer-menu ul li{
+	margin-bottom: 1px;
+}
+
+}
+/* Max width 375px */
+
+@media screen and (max-width: 411px){
+.career-sub-heading{
+	margin-top: 0px;
+	margin-bottom: 10px;
+	font-size: 8px;
+}
+.career_what_we_block .col-xs-4 {
+    padding: 0px 3px;
+}
+.career_what_we_block .row p{
+	font-size: 7px;
+    line-height: 1.2;
+}
+.individual_how_work.who_people_list{
+	padding-top: 20px !important;
+}
+.mb-85 {
+    margin-bottom: 20px;
+}
+.about-what-block1{
+	margin-top: 15px;
+}
+.background_color{
+	padding-top: 15px;
+}
+.content-wrap section{
+	margin-top: 5px;
+	padding: 5px;
+}
+.content-wrap section p{
+	font-size: 10px;
+}
+.section-content{
+	margin-top: 0px !important;
+}
+.content-wrap section img{
+	height: 42px;
+    width: 37px;
+    max-width: unset;
+}
+.tabs-style-iconbox nav ul li a{
+	padding: 0.6em 0;
+	line-height: 1;
+}
+.tabs-style-iconbox nav ul li a span{
+	font-size: 26px;
+}
+.content-wrap section .career_big_tabs_right{
+	padding: 0em;
+}
+.content-wrap section .career_big_tabs_right h2{
+	font-size: 1em;
+}
+.tabs-style-iconbox h2,h4,h5{
+	font-size: 10px;
+}
+.career_testimonial h4{
+	margin-top: 1em;
+    margin-left: 0em;
+    font-style: italic;
+    font-size: 5px;
+    padding: 2px;
+}
+.testimonials img{
+	max-width: 45%;
+}
+.apply-block h1{
+	font-size: 18px;
+}
+.apply-block a{
+	font-size: 15px;
+}
+.expertise-study_block a, .expertise-think_block a{
+	margin-top: 15px;
+}
+.tabs-style-line nav a{
+	padding: 3px 10px;
+	letter-spacing: 2px;
+	font-size: 1em;
+	line-height: 1;
+}
+.footer-menu ul li{
+	margin-bottom: 1px;
+}
+
+}
+/* Max width 411px */
+
+@media screen and (max-width: 414px){
+.career-sub-heading{
+	margin-top: 0px;
+	margin-bottom: 10px;
+	font-size: 8px;
+}
+.career_what_we_block .col-xs-4 {
+    padding: 0px 3px;
+}
+.career_what_we_block .row p{
+	font-size: 7px;
+    line-height: 1.2;
+}
+.individual_how_work.who_people_list{
+	padding-top: 20px !important;
+}
+.mb-85 {
+    margin-bottom: 20px;
+}
+.about-what-block1{
+	margin-top: 15px;
+}
+.background_color{
+	padding-top: 15px;
+}
+.content-wrap section{
+	margin-top: 5px;
+	padding: 5px;
+}
+.content-wrap section p{
+	font-size: 10px;
+}
+.section-content{
+	margin-top: 0px !important;
+}
+.content-wrap section img{
+	height: 42px;
+    width: 37px;
+    max-width: unset;
+}
+.tabs-style-iconbox nav ul li a{
+	padding: 0.6em 0;
+	line-height: 1;
+}
+.tabs-style-iconbox nav ul li a span{
+	font-size: 26px;
+}
+.content-wrap section .career_big_tabs_right{
+	padding: 0em;
+}
+.content-wrap section .career_big_tabs_right h2{
+	font-size: 1em;
+}
+.tabs-style-iconbox h2,h4,h5{
+	font-size: 10px;
+}
+.career_testimonial h4{
+	margin-top: 1em;
+    margin-left: 0em;
+    font-style: italic;
+    font-size: 8px;
+    padding: 2px;
+}
+.testimonials img{
+	max-width: 45%;
+}
+.apply-block h1{
+	font-size: 18px;
+}
+.apply-block a{
+	font-size: 15px;
+}
+.expertise-study_block a, .expertise-think_block a{
+	margin-top: 15px;
+}
+.tabs-style-line nav a{
+	padding: 3px 10px;
+	letter-spacing: 2px;
+	font-size: 1em;
+	line-height: 1;
+}
+.footer-menu ul li{
+	margin-bottom: 1px;
+}
+
+}
+/* Max width 414px */
+
+@media screen and (max-width: 768px){
+.career-sub-heading{
+	font-size: 11px;
+}
+.career_what_we_block .col-xs-4 {
+    padding: 0px 3px;
+}
+.career_what_we_block .row p{
+	font-size: 10px;
+    line-height: 1.3;
+}
+.tabs-style-iconbox nav ul li a{
+	padding: 1em 0;
+	line-height: 1.3;
+}
+.tabs-style-iconbox nav ul li a span{
+	font-size: 27px;
+}
+}
+/* Max width 768px */

@@ -1,6 +1,6 @@
 @extends('ashutosh.career_app')
 @section('content')
-    <div class="banner-btm clearfix large-bannerbtm">
+<div class="banner-btm clearfix large-bannerbtm">
 	<div class="container">
 		<div class="sub_menu_tray">
 			<div class="pull-left banner_lft_title">Careers</div>
@@ -110,50 +110,50 @@
 				</nav>
 				<div class="content-wrap">
 					<section id="section-line-1">
-						<div class="col-xs-2 col-xs-offset-2">
+						<div class="col-xs-2 col-xs-offset-3">
 							<img class="img-responsive" src="{{ asset('resources/assets/img/modules/career/Entrepreneurial_Instinct.jpg') }}" alt="" />
 						</div>
-						<div class="col-xs-6" style="margin-top:inherit;">
+						<div class="col-xs-7 section-content" style="margin-top:inherit;">
 							<p>
 								We expect everyone in our team to think like owners and act at start-up speed. Hence, we seek out individuals who have an instinct for spotting opportunities, quickly building relevant capabilities and executing effectively.
 							</p>
 						</div>
 					</section>
 					<section id="section-line-2">
-						<div class="col-xs-2 col-xs-offset-2">
+						<div class="col-xs-2 col-xs-offset-3">
 							<img class="img-responsive" src="{{ asset('resources/assets/img/modules/career/Learning_Orientation.jpg') }}" alt="" />
 						</div>
-						<div class="col-xs-6" style="margin-top:inherit;">
+						<div class="col-xs-7 section-content" style="margin-top:inherit;">
 							<p>
 								We strive to be at the cutting-edge in everything we do. Therefore we look for candidates with a thirst for continuous learning and self-improvement. That are constantly motivated to push the boundaries of their own knowledge, of the firm&apos;s and of their field.
 							</p>
 						</div>
 					</section>
 					<section id="section-line-3">
-						<div class="col-xs-2 col-xs-offset-2">
+						<div class="col-xs-2 col-xs-offset-3">
 							<img class="img-responsive" src="{{ asset('resources/assets/img/modules/career/Logical_thinking.jpg') }}" alt="" />
 						</div>
-						<div class="col-xs-6" style="margin-top:inherit;">
+						<div class="col-xs-7 section-content" style="margin-top:inherit;">
 							<p>
 								A rigorous and structured approach is essential to identifying the root causes of our clients&apos; problems. As a result, we require candidates who can demonstrate a high level of logical reasoning.
 							</p>
 						</div>
 					</section>
 					<section id="section-line-4">
-						<div class="col-xs-2 col-xs-offset-2">
+						<div class="col-xs-2 col-xs-offset-3">
 							<img class="img-responsive" src="{{ asset('resources/assets/img/modules/career/Problem_solving_ability.jpg') }}" alt="" />
 						</div>
-						<div class="col-xs-6" style="margin-top:inherit;">
+						<div class="col-xs-7 section-content" style="margin-top:inherit;">
 							<p>
 								Our clients hire us to solve their toughest strategic problems. Therefore we look for people who can apply creativity, persistence, and innovation to develop unique solutions to the most complex problems.
 							</p>
 						</div>
 					</section>
 					<section id="section-line-5">
-						<div class="col-xs-2 col-xs-offset-2">
+						<div class="col-xs-2 col-xs-offset-3">
 							<img class="img-responsive" src="{{ asset('resources/assets/img/modules/career/Collaborative_mindet.jpg') }}" alt="" />
 						</div>
-						<div class="col-xs-6" style="margin-top:inherit;">
+						<div class="col-xs-7 section-content" style="margin-top:inherit;">
 							<p>
 								We are able to deliver unparalleled impact in our clients&apos; organisations thanks to the unique combination of skill-sets we bring to their problems and the highly collaborative way we work with their teams. Consequently, we always look for people who can demonstrate a high level of emotional intelligence and a strong team ethic.
 							</p>
@@ -285,7 +285,7 @@
 			
 		</div>
 	</div>
-	<div class="container-fluid career_what_we_block">
+	<div class="container-fluid career_what_we_block testimonials">
 		<div class="row">
 			<div class="col-xs-5">
 				<img src="{{ asset('resources/assets/img/modules/career/Nicholas.png') }}" alt="" class="img-responsive">

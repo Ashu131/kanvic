@@ -1973,7 +1973,7 @@ background: #fff url(../images/nav-bg-marker.png) 50% 23px no-repeat;
   }
   #main-nav ul li ul li{float: left;}
   header{position: fixed;top:0;margin-top:0;background: #fff;margin-bottom: 0;height: 50px;z-index: 6;}
-  .logo{left: 15%;position: absolute;margin-top: 17px;z-index: 2;margin-top: 8px;}
+  .logo{left: 15%;position: absolute;margin-top: 17px;z-index: 110;margin-top: 8px;}
    h4{font-size: 16px;}
     .innercontent{margin-top:62px;}
     .inner-banner .banner-title1{font-size:50px;margin-top:30px;}
